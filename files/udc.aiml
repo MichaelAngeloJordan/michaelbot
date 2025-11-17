@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <!-- Greeting -->
+  <category>
+    <pattern>halo</pattern>
+    <template>
+      Halo, selamat datang di Chatbot Ticket Service Cybermax. Ketik help untuk melihat daftar perintah.
+    </template>
+  </category>
+
+  <category>
+    <pattern>hi</pattern>
+    <template>
+      Hai, saya chatbot yang menjelaskan modul Ticket Service Cybermax. Ketik help untuk melihat daftar perintah.
+    </template>
+  </category>
+
+  <!-- Help Command -->
+    <category>
+      <pattern>help</pattern>
+      <template>
+        Berikut daftar perintah yang tersedia:<br/>
+        - halo<br/>
+        - hi<br/>
+        - apa fungsi dari ticket service cybermax<br/>
+        - apa itu eda<br/>
+        - mengapa eda digunakan dalam sistem ini<br/>
+        - apa itu intelligent k means<br/>
+        - apa fungsi k means pada sistem ini<br/>
+        - berapa jumlah dataset yang digunakan<br/>
+        - apa saja hak akses dalam sistem ticket service<br/>
+        - berapa klaster yang ditemukan<br/>
+        - berapa nilai silhouette score<br/>
+        - apa manfaat heatmap dalam analisis<br/>
+        - apa fungsi scatter plot dalam sistem<br/>
+        - mengapa data harus dinormalisasi<br/>
+        - mengapa sistem ini dibangun di odoo 16<br/>
+        - apa fungsi dashboard analitik<br/>
+        - apa manfaat penelitian ini
+      </template>
+    </category>
+
+  <!-- 1: Fungsi Ticket Service -->
+  <category>
+    <pattern>apa fungsi dari ticket service cybermax</pattern>
+    <template>
+      Ticket Service Cybermax berfungsi sebagai sistem manajemen tiket pelanggan yang mencatat, memproses, dan menganalisis data layanan secara otomatis.
+    </template>
+  </category>
+
+  <!-- 2: Pengertian EDA -->
+  <category>
+    <pattern>apa itu eda</pattern>
+    <template>
+      EDA atau Exploratory Data Analysis adalah proses eksplorasi data untuk melihat pola, anomali, korelasi, dan distribusi dataset.
+    </template>
+  </category>
+
+  <!-- 3: Tujuan EDA -->
+  <category>
+    <pattern>mengapa eda digunakan dalam sistem ini</pattern>
+    <template>
+      EDA digunakan untuk memahami pola data tiket pelanggan, memeriksa hubungan antar variabel, dan memberikan dasar sebelum proses klasterisasi.
+    </template>
+  </category>
+
+  <!-- 4: Pengertian Intelligent K-Means -->
+  <category>
+    <pattern>apa itu intelligent k means</pattern>
+    <template>
+      Intelligent K-Means adalah metode klasterisasi yang dilengkapi proses analisis otomatis untuk menentukan jumlah klaster optimal menggunakan Elbow Method dan Silhouette Score.
+    </template>
+  </category>
+
+  <!-- 5: Fungsi K-Means -->
+  <category>
+    <pattern>apa fungsi k means pada sistem ini</pattern>
+    <template>
+      Fungsi K-Means adalah untuk mengelompokkan pelanggan berdasarkan karakteristik layanan agar perusahaan dapat memahami segmentasi pelanggan secara data-driven.
+    </template>
+  </category>
+
+  <!-- 6: Dataset Ticket -->
+  <category>
+    <pattern>berapa jumlah dataset yang digunakan</pattern>
+    <template>
+      Dataset yang digunakan terdiri dari 4069 data tiket dari 250 pelanggan unik.
+    </template>
+  </category>
+
+  <!-- 7: Hak Akses -->
+  <category>
+    <pattern>apa saja hak akses dalam sistem ticket service</pattern>
+    <template>
+      Terdapat empat hak akses: Customer, Sales, Technician, dan Admin. Masing-masing memiliki batasan data sesuai peran.
+    </template>
+  </category>
+
+  <!-- 8: Hasil Klaster -->
+  <category>
+    <pattern>berapa klaster yang ditemukan</pattern>
+    <template>
+      Sistem menghasilkan tiga klaster pelanggan: Pelanggan Ringan, Respons Lambat, dan Pelanggan Berat.<br/> Tergantung dengan berapa banyak data yang di masukan hasil akan berbeda
+    </template>
+  </category>
+
+  <!-- 9: Silhouette Score -->
+  <category>
+    <pattern>cara menilai silhouette score</pattern>
+    <template>
+      Nilai Silhouette Score  nilai mendekati 1 maka hasil semakin baik
+    </template>
+  </category>
+
+  <!-- 10: Heatmap -->
+  <category>
+    <pattern>apa manfaat heatmap dalam analisis</pattern>
+    <template>
+      Heatmap digunakan untuk melihat korelasi antar variabel seperti priority, complexity, response time, rating, dan point.
+    </template>
+  </category>
+
+  <!-- 11: Scatter Plot -->
+  <category>
+    <pattern>apa fungsi scatter plot dalam sistem</pattern>
+    <template>
+      Scatter Plot digunakan untuk melihat persebaran pelanggan antar klaster secara visual dan interaktif.
+    </template>
+  </category>
+
+  <!-- 12: Normalisasi -->
+  <category>
+    <pattern>mengapa data harus dinormalisasi</pattern>
+    <template>
+      Normalisasi diperlukan agar semua variabel memiliki skala yang sama menggunakan Z-Score sehingga perhitungan K-Means lebih akurat.
+    </template>
+  </category>
+
+  <!-- 13: Modul Odoo -->
+  <category>
+    <pattern>mengapa sistem ini dibangun di odoo 16</pattern>
+    <template>
+      Odoo 16 dipilih karena memiliki framework modular, mendukung Python, integrasi database, dan mudah dikembangkan untuk analisis data lanjutan.
+    </template>
+  </category>
+
+  <!-- 14: Visualisasi Dashboard -->
+  <category>
+    <pattern>apa fungsi dashboard analitik</pattern>
+    <template>
+      Dashboard analitik menampilkan grafik interaktif untuk membantu manajemen memonitor tren layanan dan kinerja pelanggan.
+    </template>
+  </category>
+
+  <!-- 15: Manfaat penelitian -->
+  <category>
+    <pattern>apa manfaat penelitian ini</pattern>
+    <template>
+      Penelitian ini membantu perusahaan memahami segmentasi pelanggan secara lebih mendalam sehingga strategi layanan bisa lebih tepat.
+    </template>
+  </category>
+
+<category>
+    <pattern>Apa itu chatbot</pattern>
+    <template>Chatbot merupakan layanan obrolan robot atau tokoh virtual yang menggunakan Natural Language Processing (NLP) atau pemrosesan bahasa alami untuk memahami dan merespons percakapan manusia, serta Artificial Intelligence (AI) atau kecerdasan buatan untuk meniru perilaku manusia melalui pesan suara, teks, atau keduanya.
+</template>
+</category>
+</aiml>
